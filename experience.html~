@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700' rel='stylesheet' type='text/css'>
+
+<title>Experience</title>
+<style>
+<link href="sytle.css" rel="stylesheet" type="text/css">
+
+
+</style>
+
+</head>
+
+<body>
+
+<div class="top">
+ <div class="banner">
+  <img class="logo", src = "images/cubeDevRed4.png" </img>
+ </div>
+</div>
+
+
+
+<div class="nav">
+  <a class="butt" href="/">Home</a>
+  <a class="butt" href="/Experience">Experience</a>
+  <a class="butt" href="/Algorithms">Algorithms</a>
+  <a class="butt" href="/Languages">Languages</a>
+  <a class="butt" href="Tools">Tools</a>
+ </div>
+
+<div class="mytitle">
+<h1>Experience</h1>
+</div>
+
+<div class="blurb">
+<div class="btext">
+<h3>Remote Adaptable Perimeter Intrusion Detection System (RAPIDS) </h3>
+<img class="blurb" src="images/RapidsAssembly.jpg"> 
+Our team was responsible for the video sensors, video processing video object detection, video object classification using sophisticated Bayesnian Networks, and tracking.  We also provide overall command and control and the operator GUI.  The system  successfully demonstrated the core capabilities of intrusion detection, tracking, and classification on intruder scenarios conducted at Bellow's Air Force Base.   The RAPIDS program was a collaboration between four Hawaiian leading technology developers; Advanced Fusion Technologies (AFT), Concentris Systems, Oceanit and Pukoa Scientific.  
+</div>
+</div>
+
+<div class="blurb">
+  <div class="btext">
+   <h3>Airborne Real-time Cueing Hyperspectral Enhanced Reconnaissance</h3> <a href="http://en.wikipedia.org/wiki/Airborne_Real-time_Cueing_Hyperspectral_Enhanced_Reconnaissance">(ARCHER) </a>
+<img class="blurb" src="images/archer_airborne.gif" > Our team was responsible for the ARCHER airborne and ground based processing systems as well as initial test and demonstration software.  The airborne processor is based on a highly ruggedized PC architecture with shock and vibration mounted high speed hard disks.  A high-powered DSP coprossor was deployed to provide real-time airborne hyperspectral processing cabaility.  The demonstration code consisted of a C# user interface that interfaced to optimized C and DSP C code for the hyperspectral processing. ARCHER is an aerial imaging system that produces ground images far more detailed than plain sight or ordinary aerial photography can as well as providing the most sophisticated unclassified hyperspectral imaging system available, according to U.S. Government officials.[2] ARCHER can automatically scan detailed imaging for a given signature of the object being sought (such as a missing aircraft),[3] for abnormalities in the surrounding area, or for changes from previous recorded spectral signatures.[4]
+
+It has direct applications for search and rescue, counterdrug, disaster relief and impact assessment, and homeland security, and has been deployed by the Civil Air Patrol (CAP) in the United States on the Australian built Gippsland GA8 Airvan fixed-wing aircraft.[2] 
+ </div>
+</div>
+
+<div class="blurb">
+  <div class="btext">
+   <h3>Real Time Processor</h3>
+<img class="blurb" src="images/rtp.png" >The Real-Time_Porcessor was targeted for real-time exploitation of high-resolution hyper-spectral imagery in a military environment.  It was comprised of 8 cards with 4 DSP processors each, for a total of 32 DSPs,  that communicated over a propietary high speed "overhead" buss. The host processor ran VxWorks.  Additional cards were required for IO and bulk memory.  Obtaining optimal performance required careful distribution of the tasks amongst the processors taking into account bandwidth issues, and with particular need to ensure that cache thrashing was minimized.   The RTP was sucessfully flown by the Navy and demonstrated real time detection performance.
+
+ </div>
+</div>
+
+<div class="blurb">
+  <div class="btext">
+   <h3>Airborne Intelligence, Reconnaissance and Surveillance (AIRS)</h3>
+<img class="blurb" src="images/Raven_UAV_flying.jpg" >
+AIRS development began at the end of 2008.  The product developed a detection and classification algorithm suite for deployment on smaller UAS platforms.  In the course of the AIRS program, Pukoa was given the opportunity to collect real imagery data with a RQ-11 Raven in Sattahip, Thailand.  This imagery was then used to develop and demonstrate automatic target detection and classification algorithms.   A follow-on program, Enhanced Airs, was awarded to deploy the demonstrated capability on a small class UAV, and to upgrade to overall cabality by providing geo-referencing and advanced tracking.  Unfortunately restrictions on UAV flights in US airspace required modifications to the program to support further analysis and algorithm enhancement.
+
+ </div>
+</div>
+
+<div class="blurb">
+  <div class="btext">
+   <h3>Vista Mission Playback</h3>
+<img class="blurb" src="images/nasa-world-wind-2.jpg" >
+To enhance a two-dimensional  mission playback cabability we were contracted to provide an exisitng mission playback capability an new UI based on NASA's "open-source" WorldWind java SDK, which provides a three-dimensional Google Earth type  capability.  An initial version was demonstrated and delivered.  In addition to the Java implementation of the UI,  C and FFMEG were used to support playback of arbitary video formats in sync with the mission playback via a Java-C interface.
+
+ </div>
+</div>
+
+
+
+</body>
+
+</html>

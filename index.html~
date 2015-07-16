@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="theme.css" rel="stylesheet" type="text/css" />
+	<title>/systems/dev</title>
+ 
+</head>
+
+
+
+<body style="font-family:Arial; margin:0;">
+  <div id="landing" style="width:100%; float:left; height:500px;">
+    <div style="width:100%; float:left; padding-left:8px; float:left;">
+      <div style="float:left;">
+        <img alt="" src="Images/RedCube64.png" style="float:left; padding-top:8px;" />
+      </div>
+      <div id="name" style="float:left; padding-left:2%;"> <h1 style="float:left; color:#ffffff;">/systems/dev </h1> 
+      </div>
+      <div style="float:right;"><a href=""><img id="menuimg" src="Images/menuBars32W.png" style="padding:20px;"/></a> </div>
+      <nav class="menu-top">
+        <ul>
+          <li><a href="#">Experience</a></li>
+          <li><a href="#">Skills</a></li>
+          <li><a href="#">BunnyLuv Demo App</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+    
+    <div class="mainimge" style="position:fixed; z-index:-1;">
+      <img alt="" src="Images/goldberg2.png" style="position:fixed; z-index:-1;  width:100%; height:500px;" ></img>
+    </div>
+
+
+    <div style="width:95%; color:#effcff; font-size:3em; float:left; margin-top:50px; 
+                padding:20px; text-align:center ;">
+     Don't let Rube Goldberg happen to you.
+    </div>
+
+
+    
+ <!-- 
+    <div id="step" style= " margin-top:30px; ">Requirements
+     
+    </div> 
+    
+    <div id="step" style= " margin-top:45px; ">Design
+     
+    </div> 
+      <div id="step" style= " margin-top:60px; ">Develop </div> 
+      <div id="step" style= " margin-top:75px; ">Test </div> 
+ -->
+
+    <div style="width:100%; color:#effcff; font-size:2em; float:left; margin-top:25px; text-align:center">
+      From the systems level to the unit level,
+    </div>
+    <div style="width:100%; color:#effcff; font-size:2em; float:left; margin-top:10px; text-align:center">
+      From embedded to the cloud,
+    </div>
+    
+    <div style="width:100%; color:#effcff; font-size:2em; float:left; margin-top:10px; text-align:center">
+      we can help.
+    </div>
+
+    <div style="width:100%; color:#ffffff; font-size:1em; float:left; margin-top:15px; text-align:center">
+     <b> Requirements. Design. Develop. Test. Deploy. Maintain. Update </b></div>
+  </div>
+
+<div style="float:left; margin-top:5px; display:block; width:98%; padding-left:10px; padding-right:10px;">
+ Our 30 years of <a href="#">experience</a> ranges from deploying applications in the cloud to  massively parallel real-time DSP systems. 
+
+ Our <a href="#">skills</a> include SysML/UML, C++, Haskell, JavaScript, Java, SQL, JQuery, AWS,  Linux, Windows and more.
+
+To learn more about how we can help, <a href="#"> contact us</a>.
+</div>
+
+
+<footer style="margin:8px; float:left; width:100%;">
+    <div style="width:100%; float:left; float:left; margin-left:40%;">
+      <div style="float:left;">
+        <img alt="" src="Images/RedCube64.png" style="float:left; padding-top:8px; width:32px;" />
+      </div>
+      <div id="name" style="float:left; padding-top:14px; padding-left:1%;"> <b style="float:left; color:#0;">/systems/dev </b> 
+      </div>
+    </div>
+    
+</footer>
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"> </script>
+        <script src="https://code.jquery.com/ui/1.11.0/jquery-ui.js"> </script>
+        <link href= "https://code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css" rel="stylesheet">
+        <script src="systems.js"> </script> 
+</body>
+</html>

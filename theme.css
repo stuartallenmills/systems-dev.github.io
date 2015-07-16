@@ -1,0 +1,381 @@
+
+
+@media all {
+
+body {
+
+ font-size:16px;
+ background:#f7f7f7;
+/* background-image:url("images/whitePlastic.jpg"); */
+}
+
+.tbimg {
+background-size:cover;
+width:100%;
+float:left;
+padding-top:8%;
+padding-bottom:4%;
+padding-left:1%;
+
+font-weight:300%;
+font-size:2em;
+color:#ffffff;
+
+box-shadow:2px 2px 3px black;
+background-position:center;
+
+
+}
+
+
+#imgdiv {
+ float:right;
+}
+#menuimg {
+  padding-top:20px;
+  padding-right:20px;
+  float:right;
+}
+
+#images img {
+  width:29%;
+  padding:5px;
+  box-shadow:2px 2px 3px;
+}
+
+
+
+#navdiv li {
+ list-style:none;
+ float:left;
+ padding-right:20px;
+
+}
+
+#navdiv ul {
+  margin-top:0px;
+  padding-top:0px;
+  float:left;
+  margin-bottom:2px;
+  padding-left:10px;
+
+}
+#navdiv a:hover {
+    font-weight:500;
+    color:#7f4f4f;
+}
+
+#navdiv a.mactive {
+    font-weight:500;
+
+}
+
+
+#navdiv {
+   width:100%;
+   float:left;
+   z-index:100;
+   padding-top:3px;
+   background-color:#fafafa;
+
+}
+
+#headstuff {
+  background:#ffffff;
+  border-bottom:1px solid #f8f8f8;
+  float:left;
+  width:100%;
+}
+#banner {
+  background:#3f3f3f;
+  border-bottom:1px solid;
+}
+
+a {
+ text-decoration:none;
+    color: #6f2f2f;
+    font-family: "Alegreya Sans SC";
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.txt {
+  color:#ffffff;
+  width:100%;
+  float:left;
+  font-size:2em;
+  display:none;
+  font-weight:bold;
+  padding-left:20px;
+ }
+
+a:hover {
+ color: #ff7f7f;
+    font-family: Tahoma;
+    font-weight: bold;
+    text-decoration: none;
+}
+#step {
+  color:#fcfcff;
+  font-size:2em;
+  float:left;
+  padding-left:10px;
+}
+
+div.banner {
+ 
+  padding:2%;
+   margin-bottom:0px;
+  padding-bottom:3px;
+  padding-left:3%;
+}
+
+div.select {
+  width:30%;
+/*  display:block; */
+  box-shadow:3px 3px 3px #5f5f5f;
+  padding:5px;
+  margin:5px;
+  background:#FEFEFE;
+  border-top:thin solid #efefef;
+  border-left:thin solid #ffffff;
+  border-right:thin solid #000000;
+  border-bottom:thin solid #000000;
+  background-image:url("images/whitebutt4.jpg");
+  background-size:contain;
+  float:left;
+  font-size:24px;
+  font-weight:bold;
+}
+
+div.select:hover {
+/*  transform:rotateY(20deg); */
+  border:thin solid #ff0000;
+
+}
+
+div.mainimage {
+ float:absolute;
+}
+img.mainimage {
+ display:block;
+ width:45%;
+ float:left;
+ margin:1%;
+ margin-top:0px;
+ min-width:400px;
+}
+
+div.maintext {
+  float:left;
+  display:block;
+  min-width:300px;
+  width:48%;
+  text-align:center;
+}
+img.menu {
+  display:block;
+  width:90%;
+  margin-left:auto;
+  margin-right:auto;
+  border:thin solid #afafaf;
+
+}
+
+
+
+div.bimg {
+  display:block;
+  float:left;
+   width:20%;
+  height-max:100px;
+}
+
+div.btext {
+  float:left;
+   background:#FEFEFE;
+   margin-left:1%;
+   padding:1%;
+}
+
+div.blurb {
+  float:left;
+  margin:1%;
+  padding:1%;
+  text-align:left;
+  text-margin:10px;
+}
+
+img.blurb {
+  float:left;
+  display:block;
+  border:thin solid #afafaf;
+  width:40%;
+  margin-right:2%;
+}
+
+
+a.butt {
+  float:left;
+  padding:1%;
+  display:block;
+  background:#efefef;
+  color:#000000;
+  border:thin solid #d0d0d0;
+  text-decoration:none;
+  background-image:url("images/whitebutt4.jpg")
+}
+
+
+a.butt:hover {
+  color:#7f0000;
+}
+
+a.butt:visited {
+  color:#3f3f00;
+}
+
+
+div.nav {
+  border-top:thin solid #7f7f7f;
+  width:100%;
+  float:left;
+  margin:1%;
+  padding:1%;
+  font-size:24px;
+  font-weight:bold;
+}
+
+
+
+div.mytitle {
+  margin:1%;
+  float:left;
+  width:100%;
+  text-align:center;
+  background:#444444;
+  color:#EFEFEF;
+}
+
+div.landing {
+  float:left;
+  display:block;
+  padding-left:1%;
+  padding:1%;
+  background:#FEFEFE;
+}
+
+div.stuff {
+  display:block;
+
+  width:98%;
+  padding:1%;
+  float:left;
+  margin-bottom:5px;
+/*  background:#aaaaaa; */
+  box-shadow:inset 3px 3px 5px #6f6f6f;
+  border-right:thin solid #ffffff;
+  border-bottom:thin solid #ffffff;
+}
+
+div.foot {
+ display:block;
+ width:100%;
+ float:left;
+ margin-top:5px;
+ margin-left:auto;
+ margin-right:auto;
+ background:#dddddd;
+ padding:10px
+
+}
+
+div.foottext {
+ display:block;
+ margin-left:auto;
+ margin-right:auto;
+ text-align:center;
+}
+
+}
+
+@media  (min-device-aspect-ratio: 2/3) {
+
+#navdiv a {
+    color:#2f2f2f;
+    font-weight:300;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size:1.3em;
+ }
+
+#logoimg {
+  width:45px;
+  padding-top:10px;
+  float:left;
+}
+
+#name {
+  float:left;
+  padding-left:2%;
+ }
+
+#name h1 {
+  float:left;
+  color:black;
+  margin-top:15px;
+  margin-bottom:15px;
+
+ }
+}
+
+footer {
+  margin:1%;
+  margin-top:3%;
+  float:left;
+  width:98%;
+  border-top:1px solid #9f9f9f;
+}
+
+@media  (max-device-aspect-ratio: 2/3) {
+
+  #contactTxt {
+   font-size:30px;
+}
+
+ #blktxt {
+   font-size:30px;
+}
+
+
+
+#name {
+  float:left;
+  padding-left:2%;
+ }
+
+#name h1 {
+  float:left;
+  color:black;
+  font-size:36pt;
+  margin-top:28px;
+ 
+}
+
+ 
+
+#logoimg {
+   width:70px;
+   padding-top:20px;
+   padding-bottom:20px;
+}
+
+#navdiv a {
+    color:#2f2f2f;
+    font-weight:700;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size:32pt;
+ }
+
+
+}
+

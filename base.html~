@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="theme.css" rel="stylesheet" type="text/css" />
+	<title>/systems/dev</title>
+ 
+</head>
+
+
+
+<body style="font-family:Arial; margin:0;">
+  <div id="landing" style="width:100%; float:left; ;">
+    <div id="banner" style="width:100%; float:left;  float:left;" >
+     <div id="headstuff">
+       <div  id="animg" style="float:left; padding-left:10px;">
+         <img alt="" src="Images/RedCube64.png" style="float:left; padding-top:10px; width:48px;" />
+       </div>
+       <div id="name" style="float:left; padding-left:2%;"> <h1 style="float:left; color:#000000; margin-top:15px;">/systems/dev </h1> 
+       </div>
+      </div>
+       <div id="navdiv">
+         <nav class="menu-top">
+           <ul>
+             <li><a href="#">Experience</a></li>
+             <li><a href="#">Skills</a></li>
+             <li><a href="#">Contact Us</a></li>
+             <li><a href="#">Log In</a></li> 
+           </ul>
+         </nav>
+       </div>
+    </div>
+   </div>
+
+<!-- CONTENT GOES HERE
+
+
+
+
+-->
+
+
+<footer style="margin:8px; float:left; width:100%;">
+    <div style="width:100%; float:left; float:left; margin-left:40%;">
+      <div style="float:left;">
+        <img alt="" src="Images/RedCube64.png" style="float:left; padding-top:8px; width:32px;" />
+      </div>
+      <div id="name" style="float:left; padding-top:14px; padding-left:1%;"> <b style="float:left; color:#0;">/systems/dev </b> 
+      </div>
+    </div>
+    
+</footer>
+         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"> </script>
+        <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"> </script>
+        <link href= "http://code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css" rel="stylesheet">
+        <script src="systems.js"> </script> 
+</body>
+</html>

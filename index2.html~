@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700' rel='stylesheet' type='text/css'>
+<title>/systems/dev</title>
+<style>
+
+body {
+ font-family:Rokkitt;
+ font-size:32px;
+ background:#f7f7f7;
+/* background-image:url("images/whitePlastic.jpg"); */
+}
+div.select {
+  width:45%;
+/*  display:block; */
+  box-shadow:3px 3px 3px #5f5f5f;
+  padding:1%;
+  margin:1%;
+  background:#FEFEFE;
+  border-top:thin solid #efefef;
+  border-left:thin solid #ffffff;
+  border-right:thin solid #000000;
+  border-bottom:thin solid #000000;
+  background-image:url("images/whitebutt4.jpg");
+  background-size:contain;
+  float:left;
+}
+
+div.select:hover {
+/*  transform:rotateY(20deg); */
+  border:thin solid #ff0000;
+
+}
+
+img.menu {
+  display:block;
+  width:100%;
+  margin-left:auto;
+  margin-right:auto;
+  border:thin solid #afafaf;
+
+}
+
+
+
+div.banner {
+  border-bottom:thin solid #7f7f7f;
+  margin:1%;
+  padding:5px;
+  background:#f2ff8f8;
+}
+
+div.landing {
+  display:block;
+  padding-left:10px;
+  padding:5px;
+  background:#FEFEFE;
+  box-shadow:inset 1px 1px 1px #7f7f7f;
+  text-align:center;
+}
+
+div.stuff {
+  display:block;
+
+  width:98%;
+  padding:1%;
+  float:left;
+  margin-bottom:5px;
+/*  background:#aaaaaa; */
+  box-shadow:inset 3px 3px 5px #6f6f6f;
+  border-right:thin solid #ffffff;
+  border-bottom:thin solid #ffffff;
+}
+
+div.foot {
+ display:block;
+ width:100%;
+ float:left;
+ margin-top:5px;
+ margin-left:auto;
+ margin-right:auto;
+ background:#dddddd;
+ padding:10px
+
+}
+
+div.foottext {
+ display:block;
+ margin-left:auto;
+ margin-right:auto;
+ text-align:center;
+}
+
+</style>
+
+
+</head>
+
+<body>
+
+
+<div class="top">
+ <div class="banner">
+  <img class="logo", src = "images/cubeDevRed4.png" </img>
+ </div>
+
+ <div class="landing">
+   <h2>Advanced Technology? <br>
+     Complex Systems? <br> <br>
+    Been there.  Done that. </h2>
+   Our expertise and experience ensures that we can help you get the job done on time and on budget.
+ </div>
+</div>
+
+<div class="stuff">
+   <div class="select" id="d1"> 
+     <b> Experience </b>
+     <a href="experience.html"> <img class="menu", src = "images/rtp.png"> </a>
+    </div>
+
+   <div class="select" id="d2"> 
+    <b> Algorithms </b> <br>
+    <a href="Play.html"> <img class="menu", src = "images/trackSim.png"> </a>
+   </div>
+
+   <div class="select" id="d3"> 
+    <b> Design </b> <br>
+    <a href="Play.html"> <img class="menu", style="max-height:480px"; src = "images/umlThumb.png" > </a>
+   </div>
+
+   <div class="select" id="d4"> 
+    <b> Languages </b> <br>
+    <a href="Play.html"> <img class="menu", style="max-height:480px"; src = "images/language.png"> </a>
+   </div>
+
+   <div class="select" id="d5"> 
+    <b> Tools </b> <br>
+    <a href="Play.html"> <img class="menu", style="max-height:480px"; src = "images/umlThumb.png"> </a>
+   </div>
+
+   <div class="select" id="d6"> 
+    <b> Functional Programming </b> <br>
+    <a href="Play.html"> <img class="menu", style="max-height:480px"; src = "images/umlThumb.png"> </a>
+   </div>
+ 
+ 
+ </div>
+
+<!--
+ <div class="foot">  
+   <div class="foottext">
+     See what we have to offer.
+   </div>
+  </div>
+-->
+ </body>
+
+</html>
